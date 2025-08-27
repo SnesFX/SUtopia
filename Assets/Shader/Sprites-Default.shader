@@ -38,7 +38,6 @@ Shader "Sprites/Default"
 				float4 vertex   : POSITION;
 				float4 color    : COLOR;
 				float2 texcoord : TEXCOORD0;
-				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
 			struct v2f
