@@ -20,7 +20,7 @@ Different Unity version! - The legacy decomp uses 2019.4.17f1 (i think), while t
 
 * [Github Desktop](https://desktop.github.com/) - USE THIS TO DOWNLOAD/CLONE BECAUSE OF GIT LFS STUFF
 
-* [Unity 2017.1.2p3](https://unity.com/releases/editor/whats-new/5.4.1f1) - Unity Editor lol
+* [Unity 5.4.1f1](https://unity.com/releases/editor/whats-new/5.4.1f1) - Unity Editor lol
 
 * [Visual Studio Code](https://code.visualstudio.com) (ONLY IF YOU'RE GOING TO EDIT THE CODE)
 
