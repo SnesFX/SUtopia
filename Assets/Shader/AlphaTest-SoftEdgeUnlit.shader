@@ -38,6 +38,9 @@ SubShader {
 				float4 vertex : POSITION;
 				float4 color : COLOR;
 				float2 texcoord : TEXCOORD0;
+				#ifdef UNITY_INSTANCING_ENABLED
+				UNITY_VERTEX_INPUT_INSTANCE_ID
+				#endif
 			};
 
 			struct v2f {
@@ -55,7 +58,9 @@ SubShader {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
+				#ifdef UNITY_INSTANCING_ENABLED
 				UNITY_SETUP_INSTANCE_ID(v);
+				#endif
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.color = v.color;

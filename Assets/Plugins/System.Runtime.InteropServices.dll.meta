@@ -3,7 +3,7 @@ guid: e628c8679f33c70018fd6eb36472f310
 timeCreated: 1756251104
 licenseType: Free
 PluginImporter:
-  name:
+  serializedVersion: 1
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
@@ -15,8 +15,10 @@ PluginImporter:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-  output:
-    dllType: 0
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

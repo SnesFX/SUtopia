@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F8FD96A9-97D3-8A0F-7851-2842D681E5A8}</ProjectGuid>
+    <ProjectGuid>{93288C01-F9F5-A9B1-145F-71E71612FA1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -207,13 +207,13 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/5.4.1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="AmplifyMotion">
- <HintPath>C:/Users/Satou/Documents/Unity/SUtopia-U5/Assets/Plugins/AmplifyMotion.dll</HintPath>
+ <HintPath>C:/Users/Satou/Documents/Unity/SUtopia/Assets/Plugins/AmplifyMotion.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>C:/Users/Satou/Documents/Unity/SUtopia-U5/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/Satou/Documents/Unity/SUtopia/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.InteropServices">
- <HintPath>C:/Users/Satou/Documents/Unity/SUtopia-U5/Assets/Plugins/System.Runtime.InteropServices.dll</HintPath>
+ <HintPath>C:/Users/Satou/Documents/Unity/SUtopia/Assets/Plugins/System.Runtime.InteropServices.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
