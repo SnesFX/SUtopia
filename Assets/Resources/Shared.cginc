@@ -110,12 +110,12 @@ inline half2 ComputeMotionVector( half4 pos_prev, half4 pos_curr, half scale )
 
 inline half4 PackMotionVector( half2 motion, half obj_id )
 {
-	half3 packed;
-	packed.z = length( motion.xy );
-	packed.xy = ( motion.xy / packed.z ) * 0.5f + 0.5f;
-	packed.z = ( packed.z < _AM_MIN_VELOCITY ) ? 0 : packed.z;
-	packed.z = max( min( packed.z, _AM_MAX_VELOCITY ) - _AM_MIN_VELOCITY, 0 ) * _AM_RCP_TOTAL_VELOCITY;
-	return half4( packed, obj_id );
+	half3 packedd;
+	packedd.z = length( motion.xy );
+	packedd.xy = ( motion.xy / packedd.z ) * 0.5f + 0.5f;
+	packedd.z = ( packedd.z < _AM_MIN_VELOCITY ) ? 0 : packedd.z;
+	packedd.z = max( min( packedd.z, _AM_MAX_VELOCITY ) - _AM_MIN_VELOCITY, 0 ) * _AM_RCP_TOTAL_VELOCITY;
+	return half4( packedd, obj_id );
 }
 
 MotionVertexToFragment MotionVertex( VertexInput v )
