@@ -14,7 +14,9 @@ Different Unity version! - The legacy decomp uses 2019.4.17f1 (i think), while t
 
 # Ports
 
-* None yet.
+* Wii U - Ported by MemeMaster9000 - Download: [here](https://github.com/ghbbeep/Utopia-Decomp-WiiU/releases/tag/release_0.2)
+
+* Xbox 360 - Ported by MemeMaster9000 - Download: [here](https://github.com/ghbbeep/Utopia-Decomp-Xbox360/releases/tag/version_0.1)
 
 # Requirements
 
