@@ -28,6 +28,6 @@ Different Unity version! - The legacy decomp uses 2019.4.17f1 (i think), while t
 
 # Credits
 
-* [SnesFX/Koi (me!)](https://twitter.com/maybekoi_) - Decompilation
+* [SnesFX/Koi (me!)](https://twitter.com/flxsprite) - Decompilation
 
 * Sonic Utopia Devs - Making the amazing fangame!
